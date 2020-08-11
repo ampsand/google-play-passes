@@ -1,0 +1,16 @@
+{
+  "name": "ampsand/google-play-passes",
+  "type": "library",
+  "description": "Use Google Play API to generate Passes for Android.",
+  "keywords": ["google","passes","play","android", "generator"],
+  "homepage": "https://ampersand.ch",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Davide Morotti",
+      "email": "davide@ampersand.ch",
+      "homepage": "https://ampersand.ch",
+      "role": "Developer"
+    }
+  ]
+}
