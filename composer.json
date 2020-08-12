@@ -5,6 +5,15 @@
   "keywords": ["google","passes","play","android", "generator"],
   "homepage": "https://ampersand.ch",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "Ampsand\\GooglePlayPasses": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  },
   "authors": [
     {
       "name": "Davide Morotti",
