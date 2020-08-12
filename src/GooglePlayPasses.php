@@ -2,7 +2,7 @@
 
 namespace Ampsand\GooglePlayPasses;
 
-class GooglePlayPasses
+class GPPass
 {
     public function __construct($serviceAccountEmailAddress, $serviceAccountFile, $applicationName, $issuerId, $origins)
     {
