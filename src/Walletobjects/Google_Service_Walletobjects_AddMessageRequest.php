@@ -2,10 +2,10 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_AddMessageRequest extends Google_Model
+class Google_Service_Walletobjects_AddMessageRequest extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $messageType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messageDataType = '';
 
 

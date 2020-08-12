@@ -49,7 +49,7 @@ class GpapJwt
         $this->audience = AUDIENCE;
         $this->type = JWT_TYPE;
         $this->iss = SERVICE_ACCOUNT_EMAIL_ADDRESS;
-        $this->origins = $GLOBALS['ORIGINS'];
+        $this->origins = ORIGINS;
         $this->iat = time();
         $this->payload = array();
 
@@ -200,6 +200,3 @@ class GpapJwt
     }
 
 }
-
-
-

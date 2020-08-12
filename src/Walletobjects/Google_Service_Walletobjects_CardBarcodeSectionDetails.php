@@ -2,18 +2,18 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_CardBarcodeSectionDetails extends Google_Model
+class Google_Service_Walletobjects_CardBarcodeSectionDetails extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $firstBottomDetailType = 'Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail';
+    protected $firstBottomDetailType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_BarcodeSectionDetail';
     protected $firstBottomDetailDataType = '';
-    protected $firstTopDetailType = 'Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail';
+    protected $firstTopDetailType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_BarcodeSectionDetail';
     protected $firstTopDetailDataType = '';
-    protected $secondTopDetailType = 'Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail';
+    protected $secondTopDetailType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_BarcodeSectionDetail';
     protected $secondTopDetailDataType = '';
 
 
-    public function setFirstBottomDetail(Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail $firstBottomDetail)
+    public function setFirstBottomDetail(Google_Service_Walletobjects_BarcodeSectionDetail $firstBottomDetail)
     {
         $this->firstBottomDetail = $firstBottomDetail;
     }
@@ -23,7 +23,7 @@ class Google_Service_Walletobjects_CardBarcodeSectionDetails extends Google_Mode
         return $this->firstBottomDetail;
     }
 
-    public function setFirstTopDetail(Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail $firstTopDetail)
+    public function setFirstTopDetail(Google_Service_Walletobjects_BarcodeSectionDetail $firstTopDetail)
     {
         $this->firstTopDetail = $firstTopDetail;
     }
@@ -33,7 +33,7 @@ class Google_Service_Walletobjects_CardBarcodeSectionDetails extends Google_Mode
         return $this->firstTopDetail;
     }
 
-    public function setSecondTopDetail(Walletobjects\Google_Service_Walletobjects_BarcodeSectionDetail $secondTopDetail)
+    public function setSecondTopDetail(Google_Service_Walletobjects_BarcodeSectionDetail $secondTopDetail)
     {
         $this->secondTopDetail = $secondTopDetail;
     }

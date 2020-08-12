@@ -2,15 +2,15 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TextModuleData extends Google_Model
+class Google_Service_Walletobjects_TextModuleData extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $body;
     public $header;
     public $id;
-    protected $localizedBodyType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedBodyType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedBodyDataType = '';
-    protected $localizedHeaderType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedHeaderType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedHeaderDataType = '';
 
 
@@ -44,7 +44,7 @@ class Google_Service_Walletobjects_TextModuleData extends Google_Model
         return $this->id;
     }
 
-    public function setLocalizedBody(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedBody)
+    public function setLocalizedBody(Google_Service_Walletobjects_LocalizedString $localizedBody)
     {
         $this->localizedBody = $localizedBody;
     }
@@ -54,7 +54,7 @@ class Google_Service_Walletobjects_TextModuleData extends Google_Model
         return $this->localizedBody;
     }
 
-    public function setLocalizedHeader(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedHeader)
+    public function setLocalizedHeader(Google_Service_Walletobjects_LocalizedString $localizedHeader)
     {
         $this->localizedHeader = $localizedHeader;
     }

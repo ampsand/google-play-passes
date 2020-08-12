@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_GiftCardClassAddMessageResponse extends Google_Model
+class Google_Service_Walletobjects_GiftCardClassAddMessageResponse extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $resourceType = 'Walletobjects\Google_Service_Walletobjects_GiftCardClass';
+    protected $resourceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_GiftCardClass';
     protected $resourceDataType = '';
 
 
-    public function setResource(Walletobjects\Google_Service_Walletobjects_GiftCardClass $resource)
+    public function setResource(Google_Service_Walletobjects_GiftCardClass $resource)
     {
         $this->resource = $resource;
     }

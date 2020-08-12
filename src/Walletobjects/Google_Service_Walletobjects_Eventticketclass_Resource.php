@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $eventticketclass = $walletobjectsService->eventticketclass;
  *  </code>
  */
-class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Eventticketclass_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -30,7 +30,7 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('addmessage', array($params), "Google_Service_Walletobjects_EventTicketClassAddMessageResponse");
+        return $this->call('addmessage', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClassAddMessageResponse");
     }
 
     /**
@@ -49,7 +49,7 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array('resourceId' => $resourceId);
         $params = array_merge($params, $optParams);
-        return $this->call('get', array($params), "Google_Service_Walletobjects_EventTicketClass");
+        return $this->call('get', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClass");
     }
 
     /**
@@ -64,7 +64,7 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array('postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('insert', array($params), "Google_Service_Walletobjects_EventTicketClass");
+        return $this->call('insert', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClass");
     }
 
     /**
@@ -88,7 +88,7 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array();
         $params = array_merge($params, $optParams);
-        return $this->call('list', array($params), "Google_Service_Walletobjects_EventTicketClassListResponse");
+        return $this->call('list', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClassListResponse");
     }
 
     /**
@@ -108,7 +108,7 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('patch', array($params), "Google_Service_Walletobjects_EventTicketClass");
+        return $this->call('patch', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClass");
     }
 
     /**
@@ -128,6 +128,6 @@ class Google_Service_Walletobjects_Eventticketclass_Resource extends Google_Serv
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('update', array($params), "Google_Service_Walletobjects_EventTicketClass");
+        return $this->call('update', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClass");
     }
 }

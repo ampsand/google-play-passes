@@ -2,10 +2,10 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_EventDateTime extends Google_Model
+class Google_Service_Walletobjects_EventDateTime extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $customDoorsOpenLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customDoorsOpenLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customDoorsOpenLabelDataType = '';
     public $doorsOpen;
     public $doorsOpenLabel;

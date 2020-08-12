@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $giftcardobject = $walletobjectsService->giftcardobject;
  *  </code>
  */
-class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Giftcardobject_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -30,7 +30,7 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('addmessage', array($params), "Google_Service_Walletobjects_GiftCardObjectAddMessageResponse");
+        return $this->call('addmessage', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObjectAddMessageResponse");
     }
 
     /**
@@ -48,7 +48,7 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array('resourceId' => $resourceId);
         $params = array_merge($params, $optParams);
-        return $this->call('get', array($params), "Google_Service_Walletobjects_GiftCardObject");
+        return $this->call('get', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObject");
     }
 
     /**
@@ -63,7 +63,7 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array('postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('insert', array($params), "Google_Service_Walletobjects_GiftCardObject");
+        return $this->call('insert', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObject");
     }
 
     /**
@@ -87,7 +87,7 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array();
         $params = array_merge($params, $optParams);
-        return $this->call('list', array($params), "Google_Service_Walletobjects_GiftCardObjectListResponse");
+        return $this->call('list', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObjectListResponse");
     }
 
     /**
@@ -107,7 +107,7 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('patch', array($params), "Google_Service_Walletobjects_GiftCardObject");
+        return $this->call('patch', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObject");
     }
 
     /**
@@ -127,6 +127,6 @@ class Google_Service_Walletobjects_Giftcardobject_Resource extends Google_Servic
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('update', array($params), "Google_Service_Walletobjects_GiftCardObject");
+        return $this->call('update', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObject");
     }
 }

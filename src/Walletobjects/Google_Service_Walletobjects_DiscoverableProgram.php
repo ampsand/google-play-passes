@@ -2,12 +2,12 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_DiscoverableProgram extends Google_Model
+class Google_Service_Walletobjects_DiscoverableProgram extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $merchantSigninInfoType = 'Walletobjects\Google_Service_Walletobjects_DiscoverableProgramMerchantSigninInfo';
+    protected $merchantSigninInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DiscoverableProgramMerchantSigninInfo';
     protected $merchantSigninInfoDataType = '';
-    protected $merchantSignupInfoType = 'Walletobjects\Google_Service_Walletobjects_DiscoverableProgramMerchantSignupInfo';
+    protected $merchantSignupInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DiscoverableProgramMerchantSignupInfo';
     protected $merchantSignupInfoDataType = '';
     public $state;
 

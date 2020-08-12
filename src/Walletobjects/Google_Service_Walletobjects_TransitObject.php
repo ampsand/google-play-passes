@@ -2,61 +2,61 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TransitObject extends Google_Collection
+class Google_Service_Walletobjects_TransitObject extends \Google_Collection
 {
     protected $collection_key = 'ticketLegs';
     protected $internal_gapi_mappings = array();
-    protected $appLinkDataType = 'Walletobjects\Google_Service_Walletobjects_AppLinkData';
+    protected $appLinkDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkData';
     protected $appLinkDataDataType = '';
-    protected $barcodeType = 'Walletobjects\Google_Service_Walletobjects_Barcode';
+    protected $barcodeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Barcode';
     protected $barcodeDataType = '';
     public $classId;
-    protected $classReferenceType = 'Walletobjects\Google_Service_Walletobjects_TransitClass';
+    protected $classReferenceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TransitClass';
     protected $classReferenceDataType = '';
     public $concessionCategory;
-    protected $customConcessionCategoryType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customConcessionCategoryType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customConcessionCategoryDataType = '';
-    protected $customTicketStatusType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customTicketStatusType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customTicketStatusDataType = '';
     public $disableExpirationNotification;
     public $hasLinkedDevice;
     public $hasUsers;
     public $hexBackgroundColor;
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $passengerNames;
     public $passengerType;
-    protected $purchaseDetailsType = 'Walletobjects\Google_Service_Walletobjects_PurchaseDetails';
+    protected $purchaseDetailsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_PurchaseDetails';
     protected $purchaseDetailsDataType = '';
     public $smartTapRedemptionValue;
     public $state;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
-    protected $ticketLegType = 'Walletobjects\Google_Service_Walletobjects_TicketLeg';
+    protected $ticketLegType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TicketLeg';
     protected $ticketLegDataType = '';
-    protected $ticketLegsType = 'Walletobjects\Google_Service_Walletobjects_TicketLeg';
+    protected $ticketLegsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TicketLeg';
     protected $ticketLegsDataType = 'array';
     public $ticketNumber;
-    protected $ticketRestrictionsType = 'Walletobjects\Google_Service_Walletobjects_TicketRestrictions';
+    protected $ticketRestrictionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TicketRestrictions';
     protected $ticketRestrictionsDataType = '';
     public $ticketStatus;
     public $tripId;
     public $tripType;
-    protected $validTimeIntervalType = 'Walletobjects\Google_Service_Walletobjects_TimeInterval';
+    protected $validTimeIntervalType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TimeInterval';
     protected $validTimeIntervalDataType = '';
     public $version;
 
 
-    public function setAppLinkData(Walletobjects\Google_Service_Walletobjects_AppLinkData $appLinkData)
+    public function setAppLinkData(Google_Service_Walletobjects_AppLinkData $appLinkData)
     {
         $this->appLinkData = $appLinkData;
     }
@@ -66,7 +66,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->appLinkData;
     }
 
-    public function setBarcode(Walletobjects\Google_Service_Walletobjects_Barcode $barcode)
+    public function setBarcode(Google_Service_Walletobjects_Barcode $barcode)
     {
         $this->barcode = $barcode;
     }
@@ -86,7 +86,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->classId;
     }
 
-    public function setClassReference(Walletobjects\Google_Service_Walletobjects_TransitClass $classReference)
+    public function setClassReference(Google_Service_Walletobjects_TransitClass $classReference)
     {
         $this->classReference = $classReference;
     }
@@ -106,7 +106,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->concessionCategory;
     }
 
-    public function setCustomConcessionCategory(Walletobjects\Google_Service_Walletobjects_LocalizedString $customConcessionCategory)
+    public function setCustomConcessionCategory(Google_Service_Walletobjects_LocalizedString $customConcessionCategory)
     {
         $this->customConcessionCategory = $customConcessionCategory;
     }
@@ -116,7 +116,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->customConcessionCategory;
     }
 
-    public function setCustomTicketStatus(Walletobjects\Google_Service_Walletobjects_LocalizedString $customTicketStatus)
+    public function setCustomTicketStatus(Google_Service_Walletobjects_LocalizedString $customTicketStatus)
     {
         $this->customTicketStatus = $customTicketStatus;
     }
@@ -186,7 +186,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->imageModulesData;
     }
 
-    public function setInfoModuleData(Walletobjects\Google_Service_Walletobjects_InfoModuleData $infoModuleData)
+    public function setInfoModuleData(Google_Service_Walletobjects_InfoModuleData $infoModuleData)
     {
         $this->infoModuleData = $infoModuleData;
     }
@@ -196,7 +196,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->infoModuleData;
     }
 
-    public function setLinksModuleData(Walletobjects\Google_Service_Walletobjects_LinksModuleData $linksModuleData)
+    public function setLinksModuleData(Google_Service_Walletobjects_LinksModuleData $linksModuleData)
     {
         $this->linksModuleData = $linksModuleData;
     }
@@ -246,7 +246,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->passengerType;
     }
 
-    public function setPurchaseDetails(Walletobjects\Google_Service_Walletobjects_PurchaseDetails $purchaseDetails)
+    public function setPurchaseDetails(Google_Service_Walletobjects_PurchaseDetails $purchaseDetails)
     {
         $this->purchaseDetails = $purchaseDetails;
     }
@@ -286,7 +286,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->textModulesData;
     }
 
-    public function setTicketLeg(Walletobjects\Google_Service_Walletobjects_TicketLeg $ticketLeg)
+    public function setTicketLeg(Google_Service_Walletobjects_TicketLeg $ticketLeg)
     {
         $this->ticketLeg = $ticketLeg;
     }
@@ -316,7 +316,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->ticketNumber;
     }
 
-    public function setTicketRestrictions(Walletobjects\Google_Service_Walletobjects_TicketRestrictions $ticketRestrictions)
+    public function setTicketRestrictions(Google_Service_Walletobjects_TicketRestrictions $ticketRestrictions)
     {
         $this->ticketRestrictions = $ticketRestrictions;
     }
@@ -356,7 +356,7 @@ class Google_Service_Walletobjects_TransitObject extends Google_Collection
         return $this->tripType;
     }
 
-    public function setValidTimeInterval(Walletobjects\Google_Service_Walletobjects_TimeInterval $validTimeInterval)
+    public function setValidTimeInterval(Google_Service_Walletobjects_TimeInterval $validTimeInterval)
     {
         $this->validTimeInterval = $validTimeInterval;
     }

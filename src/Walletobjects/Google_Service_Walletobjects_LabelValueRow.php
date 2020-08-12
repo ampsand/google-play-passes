@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_LabelValueRow extends Google_Collection
+class Google_Service_Walletobjects_LabelValueRow extends \Google_Collection
 {
     protected $collection_key = 'columns';
     protected $internal_gapi_mappings = array();
-    protected $columnsType = 'Walletobjects\Google_Service_Walletobjects_LabelValue';
+    protected $columnsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LabelValue';
     protected $columnsDataType = 'array';
 
 

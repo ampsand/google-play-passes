@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $jwt = $walletobjectsService->jwt;
  *  </code>
  */
-class Google_Service_Walletobjects_Jwt_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Jwt_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -24,6 +24,6 @@ class Google_Service_Walletobjects_Jwt_Resource extends Google_Service_Resource
     {
         $params = array('postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('insert', array($params), "Google_Service_Walletobjects_JwtInsertResponse");
+        return $this->call('insert', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_JwtInsertResponse");
     }
 }

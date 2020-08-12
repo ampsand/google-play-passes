@@ -2,15 +2,15 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_Issuer extends Google_Model
+class Google_Service_Walletobjects_Issuer extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $contactInfoType = 'Walletobjects\Google_Service_Walletobjects_IssuerContactInfo';
+    protected $contactInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_IssuerContactInfo';
     protected $contactInfoDataType = '';
     public $homepageUrl;
     public $issuerId;
     public $name;
-    protected $smartTapMerchantDataType = 'Walletobjects\Google_Service_Walletobjects_SmartTapMerchantData';
+    protected $smartTapMerchantDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_SmartTapMerchantData';
     protected $smartTapMerchantDataDataType = '';
 
 

@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_InfoModuleData extends Google_Collection
+class Google_Service_Walletobjects_InfoModuleData extends \Google_Collection
 {
     protected $collection_key = 'labelValueRows';
     protected $internal_gapi_mappings = array();
-    protected $labelValueRowsType = 'Walletobjects\Google_Service_Walletobjects_LabelValueRow';
+    protected $labelValueRowsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LabelValueRow';
     protected $labelValueRowsDataType = 'array';
     public $showLastUpdateTime;
 

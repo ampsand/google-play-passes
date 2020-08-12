@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_IssuerToUserInfo extends Google_Model
+class Google_Service_Walletobjects_IssuerToUserInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $action;
-    protected $signUpInfoType = 'Walletobjects\Google_Service_Walletobjects_SignUpInfo';
+    protected $signUpInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_SignUpInfo';
     protected $signUpInfoDataType = '';
     public $url;
     public $value;

@@ -2,17 +2,17 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TemplateItem extends Google_Model
+class Google_Service_Walletobjects_TemplateItem extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $firstValueType = 'Walletobjects\Google_Service_Walletobjects_FieldSelector';
+    protected $firstValueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FieldSelector';
     protected $firstValueDataType = '';
     public $predefinedItem;
-    protected $secondValueType = 'Walletobjects\Google_Service_Walletobjects_FieldSelector';
+    protected $secondValueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FieldSelector';
     protected $secondValueDataType = '';
 
 
-    public function setFirstValue(Walletobjects\Google_Service_Walletobjects_FieldSelector $firstValue)
+    public function setFirstValue(Google_Service_Walletobjects_FieldSelector $firstValue)
     {
         $this->firstValue = $firstValue;
     }
@@ -32,7 +32,7 @@ class Google_Service_Walletobjects_TemplateItem extends Google_Model
         return $this->predefinedItem;
     }
 
-    public function setSecondValue(Walletobjects\Google_Service_Walletobjects_FieldSelector $secondValue)
+    public function setSecondValue(Google_Service_Walletobjects_FieldSelector $secondValue)
     {
         $this->secondValue = $secondValue;
     }

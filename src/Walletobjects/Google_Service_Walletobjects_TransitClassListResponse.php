@@ -2,17 +2,17 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TransitClassListResponse extends Google_Collection
+class Google_Service_Walletobjects_TransitClassListResponse extends \Google_Collection
 {
     protected $collection_key = 'resources';
     protected $internal_gapi_mappings = array();
-    protected $paginationType = 'Walletobjects\Google_Service_Walletobjects_Pagination';
+    protected $paginationType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Pagination';
     protected $paginationDataType = '';
-    protected $resourcesType = 'Walletobjects\Google_Service_Walletobjects_TransitClass';
+    protected $resourcesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TransitClass';
     protected $resourcesDataType = 'array';
 
 
-    public function setPagination(Walletobjects\Google_Service_Walletobjects_Pagination $pagination)
+    public function setPagination(Google_Service_Walletobjects_Pagination $pagination)
     {
         $this->pagination = $pagination;
     }

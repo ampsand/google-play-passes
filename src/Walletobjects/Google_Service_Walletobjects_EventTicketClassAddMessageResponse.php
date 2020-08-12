@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_EventTicketClassAddMessageResponse extends Google_Model
+class Google_Service_Walletobjects_EventTicketClassAddMessageResponse extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $resourceType = 'Walletobjects\Google_Service_Walletobjects_EventTicketClass';
+    protected $resourceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventTicketClass';
     protected $resourceDataType = '';
 
 
-    public function setResource(Walletobjects\Google_Service_Walletobjects_EventTicketClass $resource)
+    public function setResource(Google_Service_Walletobjects_EventTicketClass $resource)
     {
         $this->resource = $resource;
     }

@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $offerclass = $walletobjectsService->offerclass;
  *  </code>
  */
-class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Offerclass_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -30,7 +30,7 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('addmessage', array($params), "Google_Service_Walletobjects_OfferClassAddMessageResponse");
+        return $this->call('addmessage', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClassAddMessageResponse");
     }
 
     /**
@@ -48,7 +48,7 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array('resourceId' => $resourceId);
         $params = array_merge($params, $optParams);
-        return $this->call('get', array($params), "Google_Service_Walletobjects_OfferClass");
+        return $this->call('get', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClass");
     }
 
     /**
@@ -62,7 +62,7 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array('postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('insert', array($params), "Google_Service_Walletobjects_OfferClass");
+        return $this->call('insert', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClass");
     }
 
     /**
@@ -86,7 +86,7 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array();
         $params = array_merge($params, $optParams);
-        return $this->call('list', array($params), "Google_Service_Walletobjects_OfferClassListResponse");
+        return $this->call('list', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClassListResponse");
     }
 
     /**
@@ -106,7 +106,7 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('patch', array($params), "Google_Service_Walletobjects_OfferClass");
+        return $this->call('patch', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClass");
     }
 
     /**
@@ -125,6 +125,6 @@ class Google_Service_Walletobjects_Offerclass_Resource extends Google_Service_Re
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('update', array($params), "Google_Service_Walletobjects_OfferClass");
+        return $this->call('update', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClass");
     }
 }

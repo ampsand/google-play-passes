@@ -2,18 +2,18 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_CardRowTemplateInfo extends Google_Model
+class Google_Service_Walletobjects_CardRowTemplateInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $oneItemType = 'Walletobjects\Google_Service_Walletobjects_CardRowOneItem';
+    protected $oneItemType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CardRowOneItem';
     protected $oneItemDataType = '';
-    protected $threeItemsType = 'Walletobjects\Google_Service_Walletobjects_CardRowThreeItems';
+    protected $threeItemsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CardRowThreeItems';
     protected $threeItemsDataType = '';
-    protected $twoItemsType = 'Walletobjects\Google_Service_Walletobjects_CardRowTwoItems';
+    protected $twoItemsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CardRowTwoItems';
     protected $twoItemsDataType = '';
 
 
-    public function setOneItem(Walletobjects\Google_Service_Walletobjects_CardRowOneItem $oneItem)
+    public function setOneItem(Google_Service_Walletobjects_CardRowOneItem $oneItem)
     {
         $this->oneItem = $oneItem;
     }

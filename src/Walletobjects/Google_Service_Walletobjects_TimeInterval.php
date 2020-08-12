@@ -2,17 +2,17 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TimeInterval extends Google_Model
+class Google_Service_Walletobjects_TimeInterval extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $endType = 'Walletobjects\Google_Service_Walletobjects_DateTime';
+    protected $endType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DateTime';
     protected $endDataType = '';
     public $kind;
-    protected $startType = 'Walletobjects\Google_Service_Walletobjects_DateTime';
+    protected $startType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DateTime';
     protected $startDataType = '';
 
 
-    public function setEnd(Walletobjects\Google_Service_Walletobjects_DateTime $end)
+    public function setEnd(Google_Service_Walletobjects_DateTime $end)
     {
         $this->end = $end;
     }
@@ -32,7 +32,7 @@ class Google_Service_Walletobjects_TimeInterval extends Google_Model
         return $this->kind;
     }
 
-    public function setStart(Walletobjects\Google_Service_Walletobjects_DateTime $start)
+    public function setStart(Google_Service_Walletobjects_DateTime $start)
     {
         $this->start = $start;
     }

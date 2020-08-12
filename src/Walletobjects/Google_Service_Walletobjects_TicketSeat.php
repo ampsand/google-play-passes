@@ -2,15 +2,15 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TicketSeat extends Google_Model
+class Google_Service_Walletobjects_TicketSeat extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $coach;
-    protected $customFareClassType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customFareClassType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customFareClassDataType = '';
     public $fareClass;
     public $seat;
-    protected $seatAssignmentType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $seatAssignmentType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $seatAssignmentDataType = '';
 
 
@@ -24,7 +24,7 @@ class Google_Service_Walletobjects_TicketSeat extends Google_Model
         return $this->coach;
     }
 
-    public function setCustomFareClass(Walletobjects\Google_Service_Walletobjects_LocalizedString $customFareClass)
+    public function setCustomFareClass(Google_Service_Walletobjects_LocalizedString $customFareClass)
     {
         $this->customFareClass = $customFareClass;
     }
@@ -54,7 +54,7 @@ class Google_Service_Walletobjects_TicketSeat extends Google_Model
         return $this->seat;
     }
 
-    public function setSeatAssignment(Walletobjects\Google_Service_Walletobjects_LocalizedString $seatAssignment)
+    public function setSeatAssignment(Google_Service_Walletobjects_LocalizedString $seatAssignment)
     {
         $this->seatAssignment = $seatAssignment;
     }

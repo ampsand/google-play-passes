@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $issuer = $walletobjectsService->issuer;
  *  </code>
  */
-class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Issuer_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -25,7 +25,7 @@ class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resour
     {
         $params = array('resourceId' => $resourceId);
         $params = array_merge($params, $optParams);
-        return $this->call('get', array($params), "Google_Service_Walletobjects_Issuer");
+        return $this->call('get', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Issuer");
     }
 
     /**
@@ -39,7 +39,7 @@ class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resour
     {
         $params = array('postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('insert', array($params), "Google_Service_Walletobjects_Issuer");
+        return $this->call('insert', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Issuer");
     }
 
     /**
@@ -52,7 +52,7 @@ class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resour
     {
         $params = array();
         $params = array_merge($params, $optParams);
-        return $this->call('list', array($params), "Google_Service_Walletobjects_IssuerListResponse");
+        return $this->call('list', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_IssuerListResponse");
     }
 
     /**
@@ -69,7 +69,7 @@ class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resour
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('patch', array($params), "Google_Service_Walletobjects_Issuer");
+        return $this->call('patch', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Issuer");
     }
 
     /**
@@ -85,6 +85,6 @@ class Google_Service_Walletobjects_Issuer_Resource extends Google_Service_Resour
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('update', array($params), "Google_Service_Walletobjects_Issuer");
+        return $this->call('update', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Issuer");
     }
 }

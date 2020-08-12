@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_ImageModuleData extends Google_Model
+class Google_Service_Walletobjects_ImageModuleData extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $id;
-    protected $mainImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $mainImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $mainImageDataType = '';
 
 
@@ -20,7 +20,7 @@ class Google_Service_Walletobjects_ImageModuleData extends Google_Model
         return $this->id;
     }
 
-    public function setMainImage(Walletobjects\Google_Service_Walletobjects_Image $mainImage)
+    public function setMainImage(Google_Service_Walletobjects_Image $mainImage)
     {
         $this->mainImage = $mainImage;
     }

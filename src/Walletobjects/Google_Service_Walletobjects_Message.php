@@ -2,18 +2,18 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_Message extends Google_Model
+class Google_Service_Walletobjects_Message extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $body;
-    protected $displayIntervalType = 'Walletobjects\Google_Service_Walletobjects_TimeInterval';
+    protected $displayIntervalType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TimeInterval';
     protected $displayIntervalDataType = '';
     public $header;
     public $id;
     public $kind;
-    protected $localizedBodyType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedBodyType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedBodyDataType = '';
-    protected $localizedHeaderType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedHeaderType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedHeaderDataType = '';
     public $messageType;
 
@@ -68,7 +68,7 @@ class Google_Service_Walletobjects_Message extends Google_Model
         return $this->kind;
     }
 
-    public function setLocalizedBody(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedBody)
+    public function setLocalizedBody(Google_Service_Walletobjects_LocalizedString $localizedBody)
     {
         $this->localizedBody = $localizedBody;
     }
@@ -78,7 +78,7 @@ class Google_Service_Walletobjects_Message extends Google_Model
         return $this->localizedBody;
     }
 
-    public function setLocalizedHeader(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedHeader)
+    public function setLocalizedHeader(Google_Service_Walletobjects_LocalizedString $localizedHeader)
     {
         $this->localizedHeader = $localizedHeader;
     }

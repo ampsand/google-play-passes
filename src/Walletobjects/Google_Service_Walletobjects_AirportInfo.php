@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_AirportInfo extends Google_Model
+class Google_Service_Walletobjects_AirportInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $airportIataCode;
-    protected $airportNameOverrideType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $airportNameOverrideType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $airportNameOverrideDataType = '';
     public $gate;
     public $kind;

@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_Image extends Google_Model
+class Google_Service_Walletobjects_Image extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $kind;
-    protected $sourceUriType = 'Walletobjects\Google_Service_Walletobjects_ImageUri';
+    protected $sourceUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageUri';
     protected $sourceUriDataType = '';
 
 

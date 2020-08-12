@@ -46,7 +46,7 @@ class Services
     {
 
         if ($getCallResponse["code"] == 200) {  // Id resource exists for this issuer account
-            printf("\n%sId: (%s) already exists. %s", $idType, $id, $this->EXISTS_MESSAGE);
+            // printf("\n%sId: (%s) already exists. %s", $idType, $id, $this->EXISTS_MESSAGE);
 
             // for object get, do additional check
             if ($idType == "object") {
@@ -59,7 +59,7 @@ class Services
                 }
             }
         } else if ($getCallResponse["code"] == 404) {  // Id resource does not exist for this issuer account
-            printf("\n%sId: (%s) does not exist. %s", $idType, $id, $this->NOT_EXIST_MESSAGE);
+            // printf("\n%sId: (%s) does not exist. %s", $idType, $id, $this->NOT_EXIST_MESSAGE);
         } else {
             throw new Exception(sprintf(">>>> Exception:\nIssue with getting %s.\n%s", $idType, var_export($getCallResponse, true)));
         }
@@ -82,9 +82,9 @@ class Services
     private function handleInsertCallStatusCode($insertCallResponse, $idType, $id, $checkClassId, $verticalType)
     {
         if ($insertCallResponse["code"] == 200) {
-            printf("\n%s id (%s) insertion success!\n", $idType, $id);
+            // printf("\n%s id (%s) insertion success!\n", $idType, $id);
         } else if ($insertCallResponse["code"] == 409) {  // Id resource exists for this issuer account
-            printf("\n%sId: (%s) already exists. %s", $idType, $id, $this->EXISTS_MESSAGE);
+            // printf("\n%sId: (%s) already exists. %s", $idType, $id, $this->EXISTS_MESSAGE);
 
             // for object insert, do additional check
             if ($idType == "object") {

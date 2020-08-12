@@ -2,37 +2,37 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_FlightClass extends Google_Collection
+class Google_Service_Walletobjects_FlightClass extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
     public $allowMultipleUsersPerObject;
-    protected $boardingAndSeatingPolicyType = 'Walletobjects\Google_Service_Walletobjects_BoardingAndSeatingPolicy';
+    protected $boardingAndSeatingPolicyType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_BoardingAndSeatingPolicy';
     protected $boardingAndSeatingPolicyDataType = '';
-    protected $callbackOptionsType = 'Walletobjects\Google_Service_Walletobjects_CallbackOptions';
+    protected $callbackOptionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CallbackOptions';
     protected $callbackOptionsDataType = '';
-    protected $classTemplateInfoType = 'Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo';
+    protected $classTemplateInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ClassTemplateInfo';
     protected $classTemplateInfoDataType = '';
     public $countryCode;
-    protected $destinationType = 'Walletobjects\Google_Service_Walletobjects_AirportInfo';
+    protected $destinationType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AirportInfo';
     protected $destinationDataType = '';
     public $enableSmartTap;
-    protected $flightHeaderType = 'Walletobjects\Google_Service_Walletobjects_FlightHeader';
+    protected $flightHeaderType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FlightHeader';
     protected $flightHeaderDataType = '';
     public $flightStatus;
-    protected $heroImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $heroImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $heroImageDataType = '';
     public $hexBackgroundColor;
-    protected $homepageUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $homepageUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $homepageUriDataType = '';
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $issuerName;
     public $kind;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
     public $localBoardingDateTime;
     public $localEstimatedOrActualArrivalDateTime;
@@ -40,23 +40,23 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
     public $localGateClosingDateTime;
     public $localScheduledArrivalDateTime;
     public $localScheduledDepartureDateTime;
-    protected $localizedIssuerNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedIssuerNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedIssuerNameDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $multipleDevicesAndHoldersAllowedStatus;
-    protected $originType = 'Walletobjects\Google_Service_Walletobjects_AirportInfo';
+    protected $originType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AirportInfo';
     protected $originDataType = '';
     public $redemptionIssuers;
-    protected $reviewType = 'Walletobjects\Google_Service_Walletobjects_Review';
+    protected $reviewType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Review';
     protected $reviewDataType = '';
     public $reviewStatus;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
     public $version;
-    protected $wordMarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $wordMarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $wordMarkDataType = '';
 
 
@@ -70,7 +70,7 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
         return $this->allowMultipleUsersPerObject;
     }
 
-    public function setBoardingAndSeatingPolicy(Walletobjects\Google_Service_Walletobjects_BoardingAndSeatingPolicy $boardingAndSeatingPolicy)
+    public function setBoardingAndSeatingPolicy(Google_Service_Walletobjects_BoardingAndSeatingPolicy $boardingAndSeatingPolicy)
     {
         $this->boardingAndSeatingPolicy = $boardingAndSeatingPolicy;
     }
@@ -80,7 +80,7 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
         return $this->boardingAndSeatingPolicy;
     }
 
-    public function setCallbackOptions(Walletobjects\Google_Service_Walletobjects_CallbackOptions $callbackOptions)
+    public function setCallbackOptions(Google_Service_Walletobjects_CallbackOptions $callbackOptions)
     {
         $this->callbackOptions = $callbackOptions;
     }
@@ -90,7 +90,7 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
         return $this->callbackOptions;
     }
 
-    public function setClassTemplateInfo(Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
+    public function setClassTemplateInfo(Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
     {
         $this->classTemplateInfo = $classTemplateInfo;
     }
@@ -110,7 +110,7 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
         return $this->countryCode;
     }
 
-    public function setDestination(Walletobjects\Google_Service_Walletobjects_AirportInfo $destination)
+    public function setDestination(Google_Service_Walletobjects_AirportInfo $destination)
     {
         $this->destination = $destination;
     }
@@ -340,7 +340,7 @@ class Google_Service_Walletobjects_FlightClass extends Google_Collection
         return $this->multipleDevicesAndHoldersAllowedStatus;
     }
 
-    public function setOrigin(Walletobjects\Google_Service_Walletobjects_AirportInfo $origin)
+    public function setOrigin(Google_Service_Walletobjects_AirportInfo $origin)
     {
         $this->origin = $origin;
     }

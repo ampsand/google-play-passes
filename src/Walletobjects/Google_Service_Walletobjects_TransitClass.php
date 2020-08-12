@@ -2,92 +2,92 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TransitClass extends Google_Collection
+class Google_Service_Walletobjects_TransitClass extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
     public $allowMultipleUsersPerObject;
-    protected $callbackOptionsType = 'Walletobjects\Google_Service_Walletobjects_CallbackOptions';
+    protected $callbackOptionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CallbackOptions';
     protected $callbackOptionsDataType = '';
-    protected $classTemplateInfoType = 'Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo';
+    protected $classTemplateInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ClassTemplateInfo';
     protected $classTemplateInfoDataType = '';
     public $countryCode;
-    protected $customCarriageLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customCarriageLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customCarriageLabelDataType = '';
-    protected $customCoachLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customCoachLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customCoachLabelDataType = '';
-    protected $customConcessionCategoryLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customConcessionCategoryLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customConcessionCategoryLabelDataType = '';
-    protected $customConfirmationCodeLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customConfirmationCodeLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customConfirmationCodeLabelDataType = '';
-    protected $customDiscountMessageLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customDiscountMessageLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customDiscountMessageLabelDataType = '';
-    protected $customFareClassLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customFareClassLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customFareClassLabelDataType = '';
-    protected $customFareNameLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customFareNameLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customFareNameLabelDataType = '';
-    protected $customOtherRestrictionsLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customOtherRestrictionsLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customOtherRestrictionsLabelDataType = '';
-    protected $customPlatformLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customPlatformLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customPlatformLabelDataType = '';
-    protected $customPurchaseFaceValueLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customPurchaseFaceValueLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customPurchaseFaceValueLabelDataType = '';
-    protected $customPurchasePriceLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customPurchasePriceLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customPurchasePriceLabelDataType = '';
-    protected $customPurchaseReceiptNumberLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customPurchaseReceiptNumberLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customPurchaseReceiptNumberLabelDataType = '';
-    protected $customRouteRestrictionsDetailsLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customRouteRestrictionsDetailsLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customRouteRestrictionsDetailsLabelDataType = '';
-    protected $customRouteRestrictionsLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customRouteRestrictionsLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customRouteRestrictionsLabelDataType = '';
-    protected $customSeatLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customSeatLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customSeatLabelDataType = '';
-    protected $customTicketNumberLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customTicketNumberLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customTicketNumberLabelDataType = '';
-    protected $customTimeRestrictionsLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customTimeRestrictionsLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customTimeRestrictionsLabelDataType = '';
-    protected $customTransitTerminusNameLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customTransitTerminusNameLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customTransitTerminusNameLabelDataType = '';
-    protected $customZoneLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customZoneLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customZoneLabelDataType = '';
     public $enableSingleLegItinerary;
     public $enableSmartTap;
-    protected $heroImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $heroImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $heroImageDataType = '';
     public $hexBackgroundColor;
-    protected $homepageUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $homepageUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $homepageUriDataType = '';
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $issuerName;
     public $languageOverride;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $localizedIssuerNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedIssuerNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedIssuerNameDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $logoType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $logoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $logoDataType = '';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $multipleDevicesAndHoldersAllowedStatus;
     public $redemptionIssuers;
-    protected $reviewType = 'Walletobjects\Google_Service_Walletobjects_Review';
+    protected $reviewType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Review';
     protected $reviewDataType = '';
     public $reviewStatus;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
-    protected $transitOperatorNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $transitOperatorNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $transitOperatorNameDataType = '';
     public $transitType;
     public $version;
-    protected $watermarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $watermarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $watermarkDataType = '';
-    protected $wordMarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $wordMarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $wordMarkDataType = '';
 
 
@@ -101,7 +101,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->allowMultipleUsersPerObject;
     }
 
-    public function setCallbackOptions(Walletobjects\Google_Service_Walletobjects_CallbackOptions $callbackOptions)
+    public function setCallbackOptions(Google_Service_Walletobjects_CallbackOptions $callbackOptions)
     {
         $this->callbackOptions = $callbackOptions;
     }
@@ -111,7 +111,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->callbackOptions;
     }
 
-    public function setClassTemplateInfo(Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
+    public function setClassTemplateInfo(Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
     {
         $this->classTemplateInfo = $classTemplateInfo;
     }
@@ -131,7 +131,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->countryCode;
     }
 
-    public function setCustomCarriageLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customCarriageLabel)
+    public function setCustomCarriageLabel(Google_Service_Walletobjects_LocalizedString $customCarriageLabel)
     {
         $this->customCarriageLabel = $customCarriageLabel;
     }
@@ -141,7 +141,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customCarriageLabel;
     }
 
-    public function setCustomCoachLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customCoachLabel)
+    public function setCustomCoachLabel(Google_Service_Walletobjects_LocalizedString $customCoachLabel)
     {
         $this->customCoachLabel = $customCoachLabel;
     }
@@ -151,7 +151,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customCoachLabel;
     }
 
-    public function setCustomConcessionCategoryLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customConcessionCategoryLabel)
+    public function setCustomConcessionCategoryLabel(Google_Service_Walletobjects_LocalizedString $customConcessionCategoryLabel)
     {
         $this->customConcessionCategoryLabel = $customConcessionCategoryLabel;
     }
@@ -161,7 +161,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customConcessionCategoryLabel;
     }
 
-    public function setCustomConfirmationCodeLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customConfirmationCodeLabel)
+    public function setCustomConfirmationCodeLabel(Google_Service_Walletobjects_LocalizedString $customConfirmationCodeLabel)
     {
         $this->customConfirmationCodeLabel = $customConfirmationCodeLabel;
     }
@@ -171,7 +171,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customConfirmationCodeLabel;
     }
 
-    public function setCustomDiscountMessageLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customDiscountMessageLabel)
+    public function setCustomDiscountMessageLabel(Google_Service_Walletobjects_LocalizedString $customDiscountMessageLabel)
     {
         $this->customDiscountMessageLabel = $customDiscountMessageLabel;
     }
@@ -181,7 +181,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customDiscountMessageLabel;
     }
 
-    public function setCustomFareClassLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customFareClassLabel)
+    public function setCustomFareClassLabel(Google_Service_Walletobjects_LocalizedString $customFareClassLabel)
     {
         $this->customFareClassLabel = $customFareClassLabel;
     }
@@ -191,7 +191,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customFareClassLabel;
     }
 
-    public function setCustomFareNameLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customFareNameLabel)
+    public function setCustomFareNameLabel(Google_Service_Walletobjects_LocalizedString $customFareNameLabel)
     {
         $this->customFareNameLabel = $customFareNameLabel;
     }
@@ -201,7 +201,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customFareNameLabel;
     }
 
-    public function setCustomOtherRestrictionsLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customOtherRestrictionsLabel)
+    public function setCustomOtherRestrictionsLabel(Google_Service_Walletobjects_LocalizedString $customOtherRestrictionsLabel)
     {
         $this->customOtherRestrictionsLabel = $customOtherRestrictionsLabel;
     }
@@ -211,7 +211,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customOtherRestrictionsLabel;
     }
 
-    public function setCustomPlatformLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customPlatformLabel)
+    public function setCustomPlatformLabel(Google_Service_Walletobjects_LocalizedString $customPlatformLabel)
     {
         $this->customPlatformLabel = $customPlatformLabel;
     }
@@ -221,7 +221,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customPlatformLabel;
     }
 
-    public function setCustomPurchaseFaceValueLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customPurchaseFaceValueLabel)
+    public function setCustomPurchaseFaceValueLabel(Google_Service_Walletobjects_LocalizedString $customPurchaseFaceValueLabel)
     {
         $this->customPurchaseFaceValueLabel = $customPurchaseFaceValueLabel;
     }
@@ -231,7 +231,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customPurchaseFaceValueLabel;
     }
 
-    public function setCustomPurchasePriceLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customPurchasePriceLabel)
+    public function setCustomPurchasePriceLabel(Google_Service_Walletobjects_LocalizedString $customPurchasePriceLabel)
     {
         $this->customPurchasePriceLabel = $customPurchasePriceLabel;
     }
@@ -241,7 +241,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customPurchasePriceLabel;
     }
 
-    public function setCustomPurchaseReceiptNumberLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customPurchaseReceiptNumberLabel)
+    public function setCustomPurchaseReceiptNumberLabel(Google_Service_Walletobjects_LocalizedString $customPurchaseReceiptNumberLabel)
     {
         $this->customPurchaseReceiptNumberLabel = $customPurchaseReceiptNumberLabel;
     }
@@ -251,7 +251,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customPurchaseReceiptNumberLabel;
     }
 
-    public function setCustomRouteRestrictionsDetailsLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customRouteRestrictionsDetailsLabel)
+    public function setCustomRouteRestrictionsDetailsLabel(Google_Service_Walletobjects_LocalizedString $customRouteRestrictionsDetailsLabel)
     {
         $this->customRouteRestrictionsDetailsLabel = $customRouteRestrictionsDetailsLabel;
     }
@@ -261,7 +261,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customRouteRestrictionsDetailsLabel;
     }
 
-    public function setCustomRouteRestrictionsLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customRouteRestrictionsLabel)
+    public function setCustomRouteRestrictionsLabel(Google_Service_Walletobjects_LocalizedString $customRouteRestrictionsLabel)
     {
         $this->customRouteRestrictionsLabel = $customRouteRestrictionsLabel;
     }
@@ -271,7 +271,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customRouteRestrictionsLabel;
     }
 
-    public function setCustomSeatLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customSeatLabel)
+    public function setCustomSeatLabel(Google_Service_Walletobjects_LocalizedString $customSeatLabel)
     {
         $this->customSeatLabel = $customSeatLabel;
     }
@@ -281,7 +281,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customSeatLabel;
     }
 
-    public function setCustomTicketNumberLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customTicketNumberLabel)
+    public function setCustomTicketNumberLabel(Google_Service_Walletobjects_LocalizedString $customTicketNumberLabel)
     {
         $this->customTicketNumberLabel = $customTicketNumberLabel;
     }
@@ -291,7 +291,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customTicketNumberLabel;
     }
 
-    public function setCustomTimeRestrictionsLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customTimeRestrictionsLabel)
+    public function setCustomTimeRestrictionsLabel(Google_Service_Walletobjects_LocalizedString $customTimeRestrictionsLabel)
     {
         $this->customTimeRestrictionsLabel = $customTimeRestrictionsLabel;
     }
@@ -301,7 +301,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customTimeRestrictionsLabel;
     }
 
-    public function setCustomTransitTerminusNameLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customTransitTerminusNameLabel)
+    public function setCustomTransitTerminusNameLabel(Google_Service_Walletobjects_LocalizedString $customTransitTerminusNameLabel)
     {
         $this->customTransitTerminusNameLabel = $customTransitTerminusNameLabel;
     }
@@ -311,7 +311,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->customTransitTerminusNameLabel;
     }
 
-    public function setCustomZoneLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $customZoneLabel)
+    public function setCustomZoneLabel(Google_Service_Walletobjects_LocalizedString $customZoneLabel)
     {
         $this->customZoneLabel = $customZoneLabel;
     }
@@ -341,7 +341,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->enableSmartTap;
     }
 
-    public function setHeroImage(Walletobjects\Google_Service_Walletobjects_Image $heroImage)
+    public function setHeroImage(Google_Service_Walletobjects_Image $heroImage)
     {
         $this->heroImage = $heroImage;
     }
@@ -391,7 +391,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->imageModulesData;
     }
 
-    public function setInfoModuleData(Walletobjects\Google_Service_Walletobjects_InfoModuleData $infoModuleData)
+    public function setInfoModuleData(Google_Service_Walletobjects_InfoModuleData $infoModuleData)
     {
         $this->infoModuleData = $infoModuleData;
     }
@@ -421,7 +421,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->languageOverride;
     }
 
-    public function setLinksModuleData(Walletobjects\Google_Service_Walletobjects_LinksModuleData $linksModuleData)
+    public function setLinksModuleData(Google_Service_Walletobjects_LinksModuleData $linksModuleData)
     {
         $this->linksModuleData = $linksModuleData;
     }
@@ -431,7 +431,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->linksModuleData;
     }
 
-    public function setLocalizedIssuerName(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
+    public function setLocalizedIssuerName(Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
     {
         $this->localizedIssuerName = $localizedIssuerName;
     }
@@ -451,7 +451,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->locations;
     }
 
-    public function setLogo(Walletobjects\Google_Service_Walletobjects_Image $logo)
+    public function setLogo(Google_Service_Walletobjects_Image $logo)
     {
         $this->logo = $logo;
     }
@@ -491,7 +491,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->redemptionIssuers;
     }
 
-    public function setReview(Walletobjects\Google_Service_Walletobjects_Review $review)
+    public function setReview(Google_Service_Walletobjects_Review $review)
     {
         $this->review = $review;
     }
@@ -521,7 +521,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->textModulesData;
     }
 
-    public function setTransitOperatorName(Walletobjects\Google_Service_Walletobjects_LocalizedString $transitOperatorName)
+    public function setTransitOperatorName(Google_Service_Walletobjects_LocalizedString $transitOperatorName)
     {
         $this->transitOperatorName = $transitOperatorName;
     }
@@ -551,7 +551,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->version;
     }
 
-    public function setWatermark(Walletobjects\Google_Service_Walletobjects_Image $watermark)
+    public function setWatermark(Google_Service_Walletobjects_Image $watermark)
     {
         $this->watermark = $watermark;
     }
@@ -561,7 +561,7 @@ class Google_Service_Walletobjects_TransitClass extends Google_Collection
         return $this->watermark;
     }
 
-    public function setWordMark(Walletobjects\Google_Service_Walletobjects_Image $wordMark)
+    public function setWordMark(Google_Service_Walletobjects_Image $wordMark)
     {
         $this->wordMark = $wordMark;
     }

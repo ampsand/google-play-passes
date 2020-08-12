@@ -2,12 +2,12 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_LoyaltyPointsBalance extends Google_Model
+class Google_Service_Walletobjects_LoyaltyPointsBalance extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $double;
     public $int;
-    protected $moneyType = 'Walletobjects\Google_Service_Walletobjects_Money';
+    protected $moneyType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Money';
     protected $moneyDataType = '';
     public $string;
 

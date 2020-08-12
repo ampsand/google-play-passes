@@ -2,12 +2,12 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_ReservationInfo extends Google_Model
+class Google_Service_Walletobjects_ReservationInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $confirmationCode;
     public $eticketNumber;
-    protected $frequentFlyerInfoType = 'Walletobjects\Google_Service_Walletobjects_FrequentFlyerInfo';
+    protected $frequentFlyerInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FrequentFlyerInfo';
     protected $frequentFlyerInfoDataType = '';
     public $kind;
 
@@ -32,7 +32,7 @@ class Google_Service_Walletobjects_ReservationInfo extends Google_Model
         return $this->eticketNumber;
     }
 
-    public function setFrequentFlyerInfo(Walletobjects\Google_Service_Walletobjects_FrequentFlyerInfo $frequentFlyerInfo)
+    public function setFrequentFlyerInfo(Google_Service_Walletobjects_FrequentFlyerInfo $frequentFlyerInfo)
     {
         $this->frequentFlyerInfo = $frequentFlyerInfo;
     }

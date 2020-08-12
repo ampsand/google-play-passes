@@ -2,10 +2,10 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_BarcodeSectionDetail extends Google_Model
+class Google_Service_Walletobjects_BarcodeSectionDetail extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $fieldSelectorType = 'Walletobjects\Google_Service_Walletobjects_FieldSelector';
+    protected $fieldSelectorType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FieldSelector';
     protected $fieldSelectorDataType = '';
 
 

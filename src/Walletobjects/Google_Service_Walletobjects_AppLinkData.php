@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_AppLinkData extends Google_Model
+class Google_Service_Walletobjects_AppLinkData extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $androidAppLinkInfoType = 'Walletobjects\Google_Service_Walletobjects_AppLinkDataAppLinkInfo';
+    protected $androidAppLinkInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkDataAppLinkInfo';
     protected $androidAppLinkInfoDataType = '';
-    protected $iosAppLinkInfoType = 'Walletobjects\Google_Service_Walletobjects_AppLinkDataAppLinkInfo';
+    protected $iosAppLinkInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkDataAppLinkInfo';
     protected $iosAppLinkInfoDataType = '';
-    protected $webAppLinkInfoType = 'Walletobjects\Google_Service_Walletobjects_AppLinkDataAppLinkInfo';
+    protected $webAppLinkInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkDataAppLinkInfo';
     protected $webAppLinkInfoDataType = '';
 
 

@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_FlightCarrier extends Google_Model
+class Google_Service_Walletobjects_FlightCarrier extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $airlineAllianceLogoType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $airlineAllianceLogoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $airlineAllianceLogoDataType = '';
-    protected $airlineLogoType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $airlineLogoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $airlineLogoDataType = '';
-    protected $airlineNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $airlineNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $airlineNameDataType = '';
     public $carrierIataCode;
     public $carrierIcaoCode;

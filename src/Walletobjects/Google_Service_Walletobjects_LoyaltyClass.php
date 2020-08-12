@@ -2,71 +2,71 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
+class Google_Service_Walletobjects_LoyaltyClass extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
     public $accountIdLabel;
     public $accountNameLabel;
     public $allowMultipleUsersPerObject;
-    protected $callbackOptionsType = 'Walletobjects\Google_Service_Walletobjects_CallbackOptions';
+    protected $callbackOptionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CallbackOptions';
     protected $callbackOptionsDataType = '';
-    protected $classTemplateInfoType = 'Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo';
+    protected $classTemplateInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ClassTemplateInfo';
     protected $classTemplateInfoDataType = '';
     public $countryCode;
-    protected $discoverableProgramType = 'Walletobjects\Google_Service_Walletobjects_DiscoverableProgram';
+    protected $discoverableProgramType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DiscoverableProgram';
     protected $discoverableProgramDataType = '';
     public $enableSmartTap;
-    protected $heroImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $heroImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $heroImageDataType = '';
     public $hexBackgroundColor;
-    protected $homepageUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $homepageUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $homepageUriDataType = '';
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $issuerName;
     public $kind;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $localizedAccountIdLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedAccountIdLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedAccountIdLabelDataType = '';
-    protected $localizedAccountNameLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedAccountNameLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedAccountNameLabelDataType = '';
-    protected $localizedIssuerNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedIssuerNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedIssuerNameDataType = '';
-    protected $localizedProgramNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedProgramNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedProgramNameDataType = '';
-    protected $localizedRewardsTierType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedRewardsTierType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedRewardsTierDataType = '';
-    protected $localizedRewardsTierLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedRewardsTierLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedRewardsTierLabelDataType = '';
-    protected $localizedSecondaryRewardsTierType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedSecondaryRewardsTierType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedSecondaryRewardsTierDataType = '';
-    protected $localizedSecondaryRewardsTierLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedSecondaryRewardsTierLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedSecondaryRewardsTierLabelDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $multipleDevicesAndHoldersAllowedStatus;
-    protected $programLogoType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $programLogoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $programLogoDataType = '';
     public $programName;
     public $redemptionIssuers;
-    protected $reviewType = 'Walletobjects\Google_Service_Walletobjects_Review';
+    protected $reviewType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Review';
     protected $reviewDataType = '';
     public $reviewStatus;
     public $rewardsTier;
     public $rewardsTierLabel;
     public $secondaryRewardsTier;
     public $secondaryRewardsTierLabel;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
     public $version;
-    protected $wordMarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $wordMarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $wordMarkDataType = '';
 
 
@@ -100,7 +100,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->allowMultipleUsersPerObject;
     }
 
-    public function setCallbackOptions(Walletobjects\Google_Service_Walletobjects_CallbackOptions $callbackOptions)
+    public function setCallbackOptions(Google_Service_Walletobjects_CallbackOptions $callbackOptions)
     {
         $this->callbackOptions = $callbackOptions;
     }
@@ -110,7 +110,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->callbackOptions;
     }
 
-    public function setClassTemplateInfo(Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
+    public function setClassTemplateInfo(Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
     {
         $this->classTemplateInfo = $classTemplateInfo;
     }
@@ -130,7 +130,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->countryCode;
     }
 
-    public function setDiscoverableProgram(Walletobjects\Google_Service_Walletobjects_DiscoverableProgram $discoverableProgram)
+    public function setDiscoverableProgram(Google_Service_Walletobjects_DiscoverableProgram $discoverableProgram)
     {
         $this->discoverableProgram = $discoverableProgram;
     }
@@ -150,7 +150,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->enableSmartTap;
     }
 
-    public function setHeroImage(Walletobjects\Google_Service_Walletobjects_Image $heroImage)
+    public function setHeroImage(Google_Service_Walletobjects_Image $heroImage)
     {
         $this->heroImage = $heroImage;
     }
@@ -200,7 +200,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->imageModulesData;
     }
 
-    public function setInfoModuleData(Walletobjects\Google_Service_Walletobjects_InfoModuleData $infoModuleData)
+    public function setInfoModuleData(Google_Service_Walletobjects_InfoModuleData $infoModuleData)
     {
         $this->infoModuleData = $infoModuleData;
     }
@@ -230,7 +230,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->kind;
     }
 
-    public function setLinksModuleData(Walletobjects\Google_Service_Walletobjects_LinksModuleData $linksModuleData)
+    public function setLinksModuleData(Google_Service_Walletobjects_LinksModuleData $linksModuleData)
     {
         $this->linksModuleData = $linksModuleData;
     }
@@ -240,7 +240,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->linksModuleData;
     }
 
-    public function setLocalizedAccountIdLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedAccountIdLabel)
+    public function setLocalizedAccountIdLabel(Google_Service_Walletobjects_LocalizedString $localizedAccountIdLabel)
     {
         $this->localizedAccountIdLabel = $localizedAccountIdLabel;
     }
@@ -250,7 +250,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedAccountIdLabel;
     }
 
-    public function setLocalizedAccountNameLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedAccountNameLabel)
+    public function setLocalizedAccountNameLabel(Google_Service_Walletobjects_LocalizedString $localizedAccountNameLabel)
     {
         $this->localizedAccountNameLabel = $localizedAccountNameLabel;
     }
@@ -260,7 +260,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedAccountNameLabel;
     }
 
-    public function setLocalizedIssuerName(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
+    public function setLocalizedIssuerName(Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
     {
         $this->localizedIssuerName = $localizedIssuerName;
     }
@@ -270,7 +270,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedIssuerName;
     }
 
-    public function setLocalizedProgramName(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedProgramName)
+    public function setLocalizedProgramName(Google_Service_Walletobjects_LocalizedString $localizedProgramName)
     {
         $this->localizedProgramName = $localizedProgramName;
     }
@@ -280,7 +280,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedProgramName;
     }
 
-    public function setLocalizedRewardsTier(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedRewardsTier)
+    public function setLocalizedRewardsTier(Google_Service_Walletobjects_LocalizedString $localizedRewardsTier)
     {
         $this->localizedRewardsTier = $localizedRewardsTier;
     }
@@ -290,7 +290,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedRewardsTier;
     }
 
-    public function setLocalizedRewardsTierLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedRewardsTierLabel)
+    public function setLocalizedRewardsTierLabel(Google_Service_Walletobjects_LocalizedString $localizedRewardsTierLabel)
     {
         $this->localizedRewardsTierLabel = $localizedRewardsTierLabel;
     }
@@ -300,7 +300,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedRewardsTierLabel;
     }
 
-    public function setLocalizedSecondaryRewardsTier(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedSecondaryRewardsTier)
+    public function setLocalizedSecondaryRewardsTier(Google_Service_Walletobjects_LocalizedString $localizedSecondaryRewardsTier)
     {
         $this->localizedSecondaryRewardsTier = $localizedSecondaryRewardsTier;
     }
@@ -310,7 +310,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->localizedSecondaryRewardsTier;
     }
 
-    public function setLocalizedSecondaryRewardsTierLabel(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedSecondaryRewardsTierLabel)
+    public function setLocalizedSecondaryRewardsTierLabel(Google_Service_Walletobjects_LocalizedString $localizedSecondaryRewardsTierLabel)
     {
         $this->localizedSecondaryRewardsTierLabel = $localizedSecondaryRewardsTierLabel;
     }
@@ -350,7 +350,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->multipleDevicesAndHoldersAllowedStatus;
     }
 
-    public function setProgramLogo(Walletobjects\Google_Service_Walletobjects_Image $programLogo)
+    public function setProgramLogo(Google_Service_Walletobjects_Image $programLogo)
     {
         $this->programLogo = $programLogo;
     }
@@ -460,7 +460,7 @@ class Google_Service_Walletobjects_LoyaltyClass extends Google_Collection
         return $this->version;
     }
 
-    public function setWordMark(Walletobjects\Google_Service_Walletobjects_Image $wordMark)
+    public function setWordMark(Google_Service_Walletobjects_Image $wordMark)
     {
         $this->wordMark = $wordMark;
     }

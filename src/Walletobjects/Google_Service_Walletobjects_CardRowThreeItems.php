@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_CardRowThreeItems extends Google_Model
+class Google_Service_Walletobjects_CardRowThreeItems extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $endItemType = 'Walletobjects\Google_Service_Walletobjects_TemplateItem';
+    protected $endItemType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TemplateItem';
     protected $endItemDataType = '';
-    protected $middleItemType = 'Walletobjects\Google_Service_Walletobjects_TemplateItem';
+    protected $middleItemType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TemplateItem';
     protected $middleItemDataType = '';
-    protected $startItemType = 'Walletobjects\Google_Service_Walletobjects_TemplateItem';
+    protected $startItemType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TemplateItem';
     protected $startItemDataType = '';
 
 

@@ -2,14 +2,14 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_LocalizedString extends Google_Collection
+class Google_Service_Walletobjects_LocalizedString extends \Google_Collection
 {
     protected $collection_key = 'translatedValues';
     protected $internal_gapi_mappings = array();
-    protected $defaultValueType = 'Walletobjects\Google_Service_Walletobjects_TranslatedString';
+    protected $defaultValueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TranslatedString';
     protected $defaultValueDataType = '';
     public $kind;
-    protected $translatedValuesType = 'Walletobjects\Google_Service_Walletobjects_TranslatedString';
+    protected $translatedValuesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TranslatedString';
     protected $translatedValuesDataType = 'array';
 
 

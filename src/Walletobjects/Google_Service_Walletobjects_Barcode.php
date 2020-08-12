@@ -2,13 +2,13 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_Barcode extends Google_Model
+class Google_Service_Walletobjects_Barcode extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $alternateText;
     public $kind;
     public $renderEncoding;
-    protected $showCodeTextType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $showCodeTextType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $showCodeTextDataType = '';
     public $type;
     public $value;

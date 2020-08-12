@@ -2,7 +2,7 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_IssuerContactInfo extends Google_Collection
+class Google_Service_Walletobjects_IssuerContactInfo extends \Google_Collection
 {
     protected $collection_key = 'alertsEmails';
     protected $internal_gapi_mappings = array();

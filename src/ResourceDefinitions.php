@@ -89,7 +89,7 @@ class ResourceDefinitions
         $payload->setIssuerName($data['shop']);
         $payload->setProvider($data['shop']);
         $payload->setRedemptionChannel("online");
-        $payload->setReviewStatus("APPROVED");
+        $payload->setReviewStatus("UNDER_REVIEW");
         $payload->setHexBackgroundColor($data['background']);
         $payload->setFinePrint($data['disclaimer']);
 
@@ -135,13 +135,19 @@ class ResourceDefinitions
         $payload->setId($objectId);
         $payload->setState("active");
 
-        $timeInterval = new Google_Service_Walletobjects_TimeInterval();
-        $startDate = DateTime($data['validity_start']);
-        $endDate = DateTime($data['validity_end']);
-        $timeInterval->setStart(date_format($startDate, 'c'));
-        $timeInterval->setEnd(date_format($endDate, 'c'));
-
-        $payload->setValidTimeInterval($timeInterval);
+        // $timeInterval = new Google_Service_Walletobjects_TimeInterval();
+        // $startDate = \DateTime::createFromFormat('Y-m-d', $data['validity_start']);
+        // $endDate = \DateTime::createFromFormat('Y-m-d', $data['validity_end']);
+        // $startDateObject = new Google_Service_Walletobjects_DateTime();
+        // $startDateObject->setDate($startDate);
+        //
+        // $endDateObject = new Google_Service_Walletobjects_DateTime();
+        // $endDateObject->setDate($endDate);
+        //
+        // $timeInterval->setStart($startDateObject);
+        // $timeInterval->setEnd($endDateObject);
+        //
+        // $payload->setValidTimeInterval($timeInterval);
         // optional.  Check design and reference api to decide what's desirable
         $payload->setBarcode($barcode);
 
@@ -836,4 +842,3 @@ class ResourceDefinitions
 
 
 }
-

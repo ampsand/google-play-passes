@@ -2,12 +2,12 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_SmartTap extends Google_Collection
+class Google_Service_Walletobjects_SmartTap extends \Google_Collection
 {
     protected $collection_key = 'infos';
     protected $internal_gapi_mappings = array();
     public $id;
-    protected $infosType = 'Walletobjects\Google_Service_Walletobjects_IssuerToUserInfo';
+    protected $infosType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_IssuerToUserInfo';
     protected $infosDataType = 'array';
     public $kind;
     public $merchantId;

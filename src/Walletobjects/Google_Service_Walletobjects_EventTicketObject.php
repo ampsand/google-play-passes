@@ -2,55 +2,55 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_EventTicketObject extends Google_Collection
+class Google_Service_Walletobjects_EventTicketObject extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
-    protected $appLinkDataType = 'Walletobjects\Google_Service_Walletobjects_AppLinkData';
+    protected $appLinkDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkData';
     protected $appLinkDataDataType = '';
-    protected $barcodeType = 'Walletobjects\Google_Service_Walletobjects_Barcode';
+    protected $barcodeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Barcode';
     protected $barcodeDataType = '';
     public $classId;
-    protected $classReferenceType = 'Walletobjects\Google_Service_Walletobjects_EventTicketClass';
+    protected $classReferenceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventTicketClass';
     protected $classReferenceDataType = '';
     public $disableExpirationNotification;
-    protected $faceValueType = 'Walletobjects\Google_Service_Walletobjects_Money';
+    protected $faceValueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Money';
     protected $faceValueDataType = '';
-    protected $groupingInfoType = 'Walletobjects\Google_Service_Walletobjects_GroupingInfo';
+    protected $groupingInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_GroupingInfo';
     protected $groupingInfoDataType = '';
     public $hasLinkedDevice;
     public $hasUsers;
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $kind;
     public $linkedOfferIds;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
-    protected $reservationInfoType = 'Walletobjects\Google_Service_Walletobjects_EventReservationInfo';
+    protected $reservationInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventReservationInfo';
     protected $reservationInfoDataType = '';
-    protected $seatInfoType = 'Walletobjects\Google_Service_Walletobjects_EventSeat';
+    protected $seatInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventSeat';
     protected $seatInfoDataType = '';
     public $smartTapRedemptionValue;
     public $state;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
     public $ticketHolderName;
     public $ticketNumber;
-    protected $ticketTypeType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $ticketTypeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $ticketTypeDataType = '';
-    protected $validTimeIntervalType = 'Walletobjects\Google_Service_Walletobjects_TimeInterval';
+    protected $validTimeIntervalType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TimeInterval';
     protected $validTimeIntervalDataType = '';
     public $version;
 
 
-    public function setAppLinkData(Walletobjects\Google_Service_Walletobjects_AppLinkData $appLinkData)
+    public function setAppLinkData(Google_Service_Walletobjects_AppLinkData $appLinkData)
     {
         $this->appLinkData = $appLinkData;
     }
@@ -60,7 +60,7 @@ class Google_Service_Walletobjects_EventTicketObject extends Google_Collection
         return $this->appLinkData;
     }
 
-    public function setBarcode(Walletobjects\Google_Service_Walletobjects_Barcode $barcode)
+    public function setBarcode(Google_Service_Walletobjects_Barcode $barcode)
     {
         $this->barcode = $barcode;
     }
@@ -80,7 +80,7 @@ class Google_Service_Walletobjects_EventTicketObject extends Google_Collection
         return $this->classId;
     }
 
-    public function setClassReference(Walletobjects\Google_Service_Walletobjects_EventTicketClass $classReference)
+    public function setClassReference(Google_Service_Walletobjects_EventTicketClass $classReference)
     {
         $this->classReference = $classReference;
     }
@@ -220,7 +220,7 @@ class Google_Service_Walletobjects_EventTicketObject extends Google_Collection
         return $this->messages;
     }
 
-    public function setReservationInfo(Walletobjects\Google_Service_Walletobjects_EventReservationInfo $reservationInfo)
+    public function setReservationInfo(Google_Service_Walletobjects_EventReservationInfo $reservationInfo)
     {
         $this->reservationInfo = $reservationInfo;
     }
@@ -230,7 +230,7 @@ class Google_Service_Walletobjects_EventTicketObject extends Google_Collection
         return $this->reservationInfo;
     }
 
-    public function setSeatInfo(Walletobjects\Google_Service_Walletobjects_EventSeat $seatInfo)
+    public function setSeatInfo(Google_Service_Walletobjects_EventSeat $seatInfo)
     {
         $this->seatInfo = $seatInfo;
     }

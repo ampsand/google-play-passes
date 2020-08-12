@@ -2,72 +2,72 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_EventTicketClass extends Google_Collection
+class Google_Service_Walletobjects_EventTicketClass extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
     public $allowMultipleUsersPerObject;
-    protected $callbackOptionsType = 'Walletobjects\Google_Service_Walletobjects_CallbackOptions';
+    protected $callbackOptionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CallbackOptions';
     protected $callbackOptionsDataType = '';
-    protected $classTemplateInfoType = 'Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo';
+    protected $classTemplateInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ClassTemplateInfo';
     protected $classTemplateInfoDataType = '';
     public $confirmationCodeLabel;
     public $countryCode;
-    protected $customConfirmationCodeLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customConfirmationCodeLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customConfirmationCodeLabelDataType = '';
-    protected $customGateLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customGateLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customGateLabelDataType = '';
-    protected $customRowLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customRowLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customRowLabelDataType = '';
-    protected $customSeatLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customSeatLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customSeatLabelDataType = '';
-    protected $customSectionLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $customSectionLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $customSectionLabelDataType = '';
-    protected $dateTimeType = 'Walletobjects\Google_Service_Walletobjects_EventDateTime';
+    protected $dateTimeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventDateTime';
     protected $dateTimeDataType = '';
     public $enableSmartTap;
     public $eventId;
-    protected $eventNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $eventNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $eventNameDataType = '';
-    protected $finePrintType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $finePrintType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $finePrintDataType = '';
     public $gateLabel;
-    protected $heroImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $heroImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $heroImageDataType = '';
     public $hexBackgroundColor;
-    protected $homepageUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $homepageUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $homepageUriDataType = '';
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $issuerName;
     public $kind;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $localizedIssuerNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedIssuerNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedIssuerNameDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $logoType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $logoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $logoDataType = '';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $multipleDevicesAndHoldersAllowedStatus;
     public $redemptionIssuers;
-    protected $reviewType = 'Walletobjects\Google_Service_Walletobjects_Review';
+    protected $reviewType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Review';
     protected $reviewDataType = '';
     public $reviewStatus;
     public $rowLabel;
     public $seatLabel;
     public $sectionLabel;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
-    protected $venueType = 'Walletobjects\Google_Service_Walletobjects_EventVenue';
+    protected $venueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_EventVenue';
     protected $venueDataType = '';
     public $version;
-    protected $wordMarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $wordMarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $wordMarkDataType = '';
 
 
@@ -81,7 +81,7 @@ class Google_Service_Walletobjects_EventTicketClass extends Google_Collection
         return $this->allowMultipleUsersPerObject;
     }
 
-    public function setCallbackOptions(Walletobjects\Google_Service_Walletobjects_CallbackOptions $callbackOptions)
+    public function setCallbackOptions(Google_Service_Walletobjects_CallbackOptions $callbackOptions)
     {
         $this->callbackOptions = $callbackOptions;
     }
@@ -91,7 +91,7 @@ class Google_Service_Walletobjects_EventTicketClass extends Google_Collection
         return $this->callbackOptions;
     }
 
-    public function setClassTemplateInfo(Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
+    public function setClassTemplateInfo(Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
     {
         $this->classTemplateInfo = $classTemplateInfo;
     }
@@ -171,7 +171,7 @@ class Google_Service_Walletobjects_EventTicketClass extends Google_Collection
         return $this->customSectionLabel;
     }
 
-    public function setDateTime(Walletobjects\Google_Service_Walletobjects_EventDateTime $dateTime)
+    public function setDateTime(Google_Service_Walletobjects_EventDateTime $dateTime)
     {
         $this->dateTime = $dateTime;
     }

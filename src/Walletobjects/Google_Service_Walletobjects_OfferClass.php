@@ -2,66 +2,66 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_OfferClass extends Google_Collection
+class Google_Service_Walletobjects_OfferClass extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
     public $allowMultipleUsersPerObject;
-    protected $callbackOptionsType = 'Walletobjects\Google_Service_Walletobjects_CallbackOptions';
+    protected $callbackOptionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CallbackOptions';
     protected $callbackOptionsDataType = '';
-    protected $classTemplateInfoType = 'Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo';
+    protected $classTemplateInfoType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ClassTemplateInfo';
     protected $classTemplateInfoDataType = '';
     public $countryCode;
     public $details;
     public $enableSmartTap;
     public $finePrint;
-    protected $helpUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $helpUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $helpUriDataType = '';
-    protected $heroImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $heroImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $heroImageDataType = '';
     public $hexBackgroundColor;
-    protected $homepageUriType = 'Walletobjects\Google_Service_Walletobjects_Uri';
+    protected $homepageUriType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Uri';
     protected $homepageUriDataType = '';
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $issuerName;
     public $kind;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $localizedDetailsType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedDetailsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedDetailsDataType = '';
-    protected $localizedFinePrintType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedFinePrintType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedFinePrintDataType = '';
-    protected $localizedIssuerNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedIssuerNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedIssuerNameDataType = '';
-    protected $localizedProviderType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedProviderType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedProviderDataType = '';
-    protected $localizedShortTitleType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedShortTitleType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedShortTitleDataType = '';
-    protected $localizedTitleType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedTitleType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedTitleDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $multipleDevicesAndHoldersAllowedStatus;
     public $provider;
     public $redemptionChannel;
     public $redemptionIssuers;
-    protected $reviewType = 'Walletobjects\Google_Service_Walletobjects_Review';
+    protected $reviewType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Review';
     protected $reviewDataType = '';
     public $reviewStatus;
     public $shortTitle;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
     public $title;
-    protected $titleImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $titleImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $titleImageDataType = '';
     public $version;
-    protected $wordMarkType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $wordMarkType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $wordMarkDataType = '';
 
 
@@ -75,7 +75,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->allowMultipleUsersPerObject;
     }
 
-    public function setCallbackOptions(Walletobjects\Google_Service_Walletobjects_CallbackOptions $callbackOptions)
+    public function setCallbackOptions(Google_Service_Walletobjects_CallbackOptions $callbackOptions)
     {
         $this->callbackOptions = $callbackOptions;
     }
@@ -85,7 +85,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->callbackOptions;
     }
 
-    public function setClassTemplateInfo(Walletobjects\Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
+    public function setClassTemplateInfo(Google_Service_Walletobjects_ClassTemplateInfo $classTemplateInfo)
     {
         $this->classTemplateInfo = $classTemplateInfo;
     }
@@ -145,7 +145,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->helpUri;
     }
 
-    public function setHeroImage(Walletobjects\Google_Service_Walletobjects_Image $heroImage)
+    public function setHeroImage(Google_Service_Walletobjects_Image $heroImage)
     {
         $this->heroImage = $heroImage;
     }
@@ -195,7 +195,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->imageModulesData;
     }
 
-    public function setInfoModuleData(Walletobjects\Google_Service_Walletobjects_InfoModuleData $infoModuleData)
+    public function setInfoModuleData(Google_Service_Walletobjects_InfoModuleData $infoModuleData)
     {
         $this->infoModuleData = $infoModuleData;
     }
@@ -225,7 +225,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->kind;
     }
 
-    public function setLinksModuleData(Walletobjects\Google_Service_Walletobjects_LinksModuleData $linksModuleData)
+    public function setLinksModuleData(Google_Service_Walletobjects_LinksModuleData $linksModuleData)
     {
         $this->linksModuleData = $linksModuleData;
     }
@@ -235,7 +235,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->linksModuleData;
     }
 
-    public function setLocalizedDetails(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedDetails)
+    public function setLocalizedDetails(Google_Service_Walletobjects_LocalizedString $localizedDetails)
     {
         $this->localizedDetails = $localizedDetails;
     }
@@ -245,7 +245,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->localizedDetails;
     }
 
-    public function setLocalizedFinePrint(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedFinePrint)
+    public function setLocalizedFinePrint(Google_Service_Walletobjects_LocalizedString $localizedFinePrint)
     {
         $this->localizedFinePrint = $localizedFinePrint;
     }
@@ -255,7 +255,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->localizedFinePrint;
     }
 
-    public function setLocalizedIssuerName(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
+    public function setLocalizedIssuerName(Google_Service_Walletobjects_LocalizedString $localizedIssuerName)
     {
         $this->localizedIssuerName = $localizedIssuerName;
     }
@@ -265,7 +265,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->localizedIssuerName;
     }
 
-    public function setLocalizedProvider(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedProvider)
+    public function setLocalizedProvider(Google_Service_Walletobjects_LocalizedString $localizedProvider)
     {
         $this->localizedProvider = $localizedProvider;
     }
@@ -275,7 +275,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->localizedProvider;
     }
 
-    public function setLocalizedShortTitle(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedShortTitle)
+    public function setLocalizedShortTitle(Google_Service_Walletobjects_LocalizedString $localizedShortTitle)
     {
         $this->localizedShortTitle = $localizedShortTitle;
     }
@@ -285,7 +285,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->localizedShortTitle;
     }
 
-    public function setLocalizedTitle(Walletobjects\Google_Service_Walletobjects_LocalizedString $localizedTitle)
+    public function setLocalizedTitle(Google_Service_Walletobjects_LocalizedString $localizedTitle)
     {
         $this->localizedTitle = $localizedTitle;
     }
@@ -405,7 +405,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->title;
     }
 
-    public function setTitleImage(Walletobjects\Google_Service_Walletobjects_Image $titleImage)
+    public function setTitleImage(Google_Service_Walletobjects_Image $titleImage)
     {
         $this->titleImage = $titleImage;
     }
@@ -425,7 +425,7 @@ class Google_Service_Walletobjects_OfferClass extends Google_Collection
         return $this->version;
     }
 
-    public function setWordMark(Walletobjects\Google_Service_Walletobjects_Image $wordMark)
+    public function setWordMark(Google_Service_Walletobjects_Image $wordMark)
     {
         $this->wordMark = $wordMark;
     }

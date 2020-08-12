@@ -2,49 +2,49 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_GiftCardObject extends Google_Collection
+class Google_Service_Walletobjects_GiftCardObject extends \Google_Collection
 {
     protected $collection_key = 'textModulesData';
     protected $internal_gapi_mappings = array();
-    protected $appLinkDataType = 'Walletobjects\Google_Service_Walletobjects_AppLinkData';
+    protected $appLinkDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_AppLinkData';
     protected $appLinkDataDataType = '';
-    protected $balanceType = 'Walletobjects\Google_Service_Walletobjects_Money';
+    protected $balanceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Money';
     protected $balanceDataType = '';
-    protected $balanceUpdateTimeType = 'Walletobjects\Google_Service_Walletobjects_DateTime';
+    protected $balanceUpdateTimeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DateTime';
     protected $balanceUpdateTimeDataType = '';
-    protected $barcodeType = 'Walletobjects\Google_Service_Walletobjects_Barcode';
+    protected $barcodeType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Barcode';
     protected $barcodeDataType = '';
     public $cardNumber;
     public $classId;
-    protected $classReferenceType = 'Walletobjects\Google_Service_Walletobjects_GiftCardClass';
+    protected $classReferenceType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_GiftCardClass';
     protected $classReferenceDataType = '';
     public $disableExpirationNotification;
     public $eventNumber;
     public $hasLinkedDevice;
     public $hasUsers;
     public $id;
-    protected $imageModulesDataType = 'Walletobjects\Google_Service_Walletobjects_ImageModuleData';
+    protected $imageModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ImageModuleData';
     protected $imageModulesDataDataType = 'array';
-    protected $infoModuleDataType = 'Walletobjects\Google_Service_Walletobjects_InfoModuleData';
+    protected $infoModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_InfoModuleData';
     protected $infoModuleDataDataType = '';
     public $kind;
-    protected $linksModuleDataType = 'Walletobjects\Google_Service_Walletobjects_LinksModuleData';
+    protected $linksModuleDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LinksModuleData';
     protected $linksModuleDataDataType = '';
-    protected $locationsType = 'Walletobjects\Google_Service_Walletobjects_LatLongPoint';
+    protected $locationsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LatLongPoint';
     protected $locationsDataType = 'array';
-    protected $messagesType = 'Walletobjects\Google_Service_Walletobjects_Message';
+    protected $messagesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Message';
     protected $messagesDataType = 'array';
     public $pin;
     public $smartTapRedemptionValue;
     public $state;
-    protected $textModulesDataType = 'Walletobjects\Google_Service_Walletobjects_TextModuleData';
+    protected $textModulesDataType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TextModuleData';
     protected $textModulesDataDataType = 'array';
-    protected $validTimeIntervalType = 'Walletobjects\Google_Service_Walletobjects_TimeInterval';
+    protected $validTimeIntervalType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TimeInterval';
     protected $validTimeIntervalDataType = '';
     public $version;
 
 
-    public function setAppLinkData(Walletobjects\Google_Service_Walletobjects_AppLinkData $appLinkData)
+    public function setAppLinkData(Google_Service_Walletobjects_AppLinkData $appLinkData)
     {
         $this->appLinkData = $appLinkData;
     }
@@ -64,7 +64,7 @@ class Google_Service_Walletobjects_GiftCardObject extends Google_Collection
         return $this->balance;
     }
 
-    public function setBalanceUpdateTime(Walletobjects\Google_Service_Walletobjects_DateTime $balanceUpdateTime)
+    public function setBalanceUpdateTime(Google_Service_Walletobjects_DateTime $balanceUpdateTime)
     {
         $this->balanceUpdateTime = $balanceUpdateTime;
     }
@@ -74,7 +74,7 @@ class Google_Service_Walletobjects_GiftCardObject extends Google_Collection
         return $this->balanceUpdateTime;
     }
 
-    public function setBarcode(Walletobjects\Google_Service_Walletobjects_Barcode $barcode)
+    public function setBarcode(Google_Service_Walletobjects_Barcode $barcode)
     {
         $this->barcode = $barcode;
     }
@@ -104,7 +104,7 @@ class Google_Service_Walletobjects_GiftCardObject extends Google_Collection
         return $this->classId;
     }
 
-    public function setClassReference(Walletobjects\Google_Service_Walletobjects_GiftCardClass $classReference)
+    public function setClassReference(Google_Service_Walletobjects_GiftCardClass $classReference)
     {
         $this->classReference = $classReference;
     }

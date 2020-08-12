@@ -2,20 +2,20 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TicketRestrictions extends Google_Model
+class Google_Service_Walletobjects_TicketRestrictions extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $otherRestrictionsType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $otherRestrictionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $otherRestrictionsDataType = '';
-    protected $routeRestrictionsType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $routeRestrictionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $routeRestrictionsDataType = '';
-    protected $routeRestrictionsDetailsType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $routeRestrictionsDetailsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $routeRestrictionsDetailsDataType = '';
-    protected $timeRestrictionsType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $timeRestrictionsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $timeRestrictionsDataType = '';
 
 
-    public function setOtherRestrictions(Walletobjects\Google_Service_Walletobjects_LocalizedString $otherRestrictions)
+    public function setOtherRestrictions(Google_Service_Walletobjects_LocalizedString $otherRestrictions)
     {
         $this->otherRestrictions = $otherRestrictions;
     }
@@ -25,7 +25,7 @@ class Google_Service_Walletobjects_TicketRestrictions extends Google_Model
         return $this->otherRestrictions;
     }
 
-    public function setRouteRestrictions(Walletobjects\Google_Service_Walletobjects_LocalizedString $routeRestrictions)
+    public function setRouteRestrictions(Google_Service_Walletobjects_LocalizedString $routeRestrictions)
     {
         $this->routeRestrictions = $routeRestrictions;
     }
@@ -35,7 +35,7 @@ class Google_Service_Walletobjects_TicketRestrictions extends Google_Model
         return $this->routeRestrictions;
     }
 
-    public function setRouteRestrictionsDetails(Walletobjects\Google_Service_Walletobjects_LocalizedString $routeRestrictionsDetails)
+    public function setRouteRestrictionsDetails(Google_Service_Walletobjects_LocalizedString $routeRestrictionsDetails)
     {
         $this->routeRestrictionsDetails = $routeRestrictionsDetails;
     }
@@ -45,7 +45,7 @@ class Google_Service_Walletobjects_TicketRestrictions extends Google_Model
         return $this->routeRestrictionsDetails;
     }
 
-    public function setTimeRestrictions(Walletobjects\Google_Service_Walletobjects_LocalizedString $timeRestrictions)
+    public function setTimeRestrictions(Google_Service_Walletobjects_LocalizedString $timeRestrictions)
     {
         $this->timeRestrictions = $timeRestrictions;
     }

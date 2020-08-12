@@ -2,6 +2,8 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
+use Google_Client;
+
 /**
  * Service definition for Walletobjects (v1).
  *
@@ -15,7 +17,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *
  * @author Google, Inc.
  */
-class Google_Service_Walletobjects extends Google_Service
+class Google_Service_Walletobjects extends \Google_Service
 {
     /** You should never encounter this message. Please do not approve the access request.. */
     const WALLET_OBJECT_ISSUER =

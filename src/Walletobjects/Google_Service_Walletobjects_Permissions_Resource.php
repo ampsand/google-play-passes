@@ -10,7 +10,7 @@ namespace Ampsand\GooglePlayPasses\Walletobjects;
  *   $permissions = $walletobjectsService->permissions;
  *  </code>
  */
-class Google_Service_Walletobjects_Permissions_Resource extends Google_Service_Resource
+class Google_Service_Walletobjects_Permissions_Resource extends \Google_Service_Resource
 {
 
     /**
@@ -25,7 +25,7 @@ class Google_Service_Walletobjects_Permissions_Resource extends Google_Service_R
     {
         $params = array('resourceId' => $resourceId);
         $params = array_merge($params, $optParams);
-        return $this->call('get', array($params), "Google_Service_Walletobjects_Permissions");
+        return $this->call('get', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Permissions");
     }
 
     /**
@@ -41,6 +41,6 @@ class Google_Service_Walletobjects_Permissions_Resource extends Google_Service_R
     {
         $params = array('resourceId' => $resourceId, 'postBody' => $postBody);
         $params = array_merge($params, $optParams);
-        return $this->call('update', array($params), "Google_Service_Walletobjects_Permissions");
+        return $this->call('update', array($params), "Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_Permissions");
     }
 }

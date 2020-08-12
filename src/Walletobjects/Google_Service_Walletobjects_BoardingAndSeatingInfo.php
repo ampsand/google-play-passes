@@ -2,16 +2,16 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_BoardingAndSeatingInfo extends Google_Model
+class Google_Service_Walletobjects_BoardingAndSeatingInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $boardingDoor;
     public $boardingGroup;
     public $boardingPosition;
-    protected $boardingPrivilegeImageType = 'Walletobjects\Google_Service_Walletobjects_Image';
+    protected $boardingPrivilegeImageType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Image';
     protected $boardingPrivilegeImageDataType = '';
     public $kind;
-    protected $seatAssignmentType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $seatAssignmentType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $seatAssignmentDataType = '';
     public $seatClass;
     public $seatNumber;

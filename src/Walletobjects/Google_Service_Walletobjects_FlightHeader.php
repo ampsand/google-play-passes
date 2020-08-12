@@ -2,19 +2,19 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_FlightHeader extends Google_Model
+class Google_Service_Walletobjects_FlightHeader extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $carrierType = 'Walletobjects\Google_Service_Walletobjects_FlightCarrier';
+    protected $carrierType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FlightCarrier';
     protected $carrierDataType = '';
     public $flightNumber;
     public $kind;
-    protected $operatingCarrierType = 'Walletobjects\Google_Service_Walletobjects_FlightCarrier';
+    protected $operatingCarrierType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FlightCarrier';
     protected $operatingCarrierDataType = '';
     public $operatingFlightNumber;
 
 
-    public function setCarrier(Walletobjects\Google_Service_Walletobjects_FlightCarrier $carrier)
+    public function setCarrier(Google_Service_Walletobjects_FlightCarrier $carrier)
     {
         $this->carrier = $carrier;
     }
@@ -44,7 +44,7 @@ class Google_Service_Walletobjects_FlightHeader extends Google_Model
         return $this->kind;
     }
 
-    public function setOperatingCarrier(Walletobjects\Google_Service_Walletobjects_FlightCarrier $operatingCarrier)
+    public function setOperatingCarrier(Google_Service_Walletobjects_FlightCarrier $operatingCarrier)
     {
         $this->operatingCarrier = $operatingCarrier;
     }

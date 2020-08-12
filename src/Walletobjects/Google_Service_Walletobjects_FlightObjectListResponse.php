@@ -2,13 +2,13 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_FlightObjectListResponse extends Google_Collection
+class Google_Service_Walletobjects_FlightObjectListResponse extends \Google_Collection
 {
     protected $collection_key = 'resources';
     protected $internal_gapi_mappings = array();
-    protected $paginationType = 'Walletobjects\Google_Service_Walletobjects_Pagination';
+    protected $paginationType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_Pagination';
     protected $paginationDataType = '';
-    protected $resourcesType = 'Walletobjects\Google_Service_Walletobjects_FlightObject';
+    protected $resourcesType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FlightObject';
     protected $resourcesDataType = 'array';
 
 

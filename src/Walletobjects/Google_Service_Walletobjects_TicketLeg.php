@@ -2,29 +2,29 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_TicketLeg extends Google_Collection
+class Google_Service_Walletobjects_TicketLeg extends \Google_Collection
 {
     protected $collection_key = 'ticketSeats';
     protected $internal_gapi_mappings = array();
     public $arrivalDateTime;
     public $carriage;
     public $departureDateTime;
-    protected $destinationNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $destinationNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $destinationNameDataType = '';
     public $destinationStationCode;
-    protected $fareNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $fareNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $fareNameDataType = '';
-    protected $originNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $originNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $originNameDataType = '';
     public $originStationCode;
     public $platform;
-    protected $ticketSeatType = 'Walletobjects\Google_Service_Walletobjects_TicketSeat';
+    protected $ticketSeatType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TicketSeat';
     protected $ticketSeatDataType = '';
-    protected $ticketSeatsType = 'Walletobjects\Google_Service_Walletobjects_TicketSeat';
+    protected $ticketSeatsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_TicketSeat';
     protected $ticketSeatsDataType = 'array';
-    protected $transitOperatorNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $transitOperatorNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $transitOperatorNameDataType = '';
-    protected $transitTerminusNameType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $transitTerminusNameType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $transitTerminusNameDataType = '';
     public $zone;
 
@@ -59,7 +59,7 @@ class Google_Service_Walletobjects_TicketLeg extends Google_Collection
         return $this->departureDateTime;
     }
 
-    public function setDestinationName(Walletobjects\Google_Service_Walletobjects_LocalizedString $destinationName)
+    public function setDestinationName(Google_Service_Walletobjects_LocalizedString $destinationName)
     {
         $this->destinationName = $destinationName;
     }
@@ -79,7 +79,7 @@ class Google_Service_Walletobjects_TicketLeg extends Google_Collection
         return $this->destinationStationCode;
     }
 
-    public function setFareName(Walletobjects\Google_Service_Walletobjects_LocalizedString $fareName)
+    public function setFareName(Google_Service_Walletobjects_LocalizedString $fareName)
     {
         $this->fareName = $fareName;
     }
@@ -89,7 +89,7 @@ class Google_Service_Walletobjects_TicketLeg extends Google_Collection
         return $this->fareName;
     }
 
-    public function setOriginName(Walletobjects\Google_Service_Walletobjects_LocalizedString $originName)
+    public function setOriginName(Google_Service_Walletobjects_LocalizedString $originName)
     {
         $this->originName = $originName;
     }
@@ -139,7 +139,7 @@ class Google_Service_Walletobjects_TicketLeg extends Google_Collection
         return $this->ticketSeats;
     }
 
-    public function setTransitOperatorName(Walletobjects\Google_Service_Walletobjects_LocalizedString $transitOperatorName)
+    public function setTransitOperatorName(Google_Service_Walletobjects_LocalizedString $transitOperatorName)
     {
         $this->transitOperatorName = $transitOperatorName;
     }
@@ -149,7 +149,7 @@ class Google_Service_Walletobjects_TicketLeg extends Google_Collection
         return $this->transitOperatorName;
     }
 
-    public function setTransitTerminusName(Walletobjects\Google_Service_Walletobjects_LocalizedString $transitTerminusName)
+    public function setTransitTerminusName(Google_Service_Walletobjects_LocalizedString $transitTerminusName)
     {
         $this->transitTerminusName = $transitTerminusName;
     }

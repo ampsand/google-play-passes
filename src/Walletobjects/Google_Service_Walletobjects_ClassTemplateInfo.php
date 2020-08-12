@@ -2,20 +2,20 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_ClassTemplateInfo extends Google_Model
+class Google_Service_Walletobjects_ClassTemplateInfo extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $cardBarcodeSectionDetailsType = 'Walletobjects\Google_Service_Walletobjects_CardBarcodeSectionDetails';
+    protected $cardBarcodeSectionDetailsType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CardBarcodeSectionDetails';
     protected $cardBarcodeSectionDetailsDataType = '';
-    protected $cardTemplateOverrideType = 'Walletobjects\Google_Service_Walletobjects_CardTemplateOverride';
+    protected $cardTemplateOverrideType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_CardTemplateOverride';
     protected $cardTemplateOverrideDataType = '';
-    protected $detailsTemplateOverrideType = 'Walletobjects\Google_Service_Walletobjects_DetailsTemplateOverride';
+    protected $detailsTemplateOverrideType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DetailsTemplateOverride';
     protected $detailsTemplateOverrideDataType = '';
-    protected $listTemplateOverrideType = 'Walletobjects\Google_Service_Walletobjects_ListTemplateOverride';
+    protected $listTemplateOverrideType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_ListTemplateOverride';
     protected $listTemplateOverrideDataType = '';
 
 
-    public function setCardBarcodeSectionDetails(Walletobjects\Google_Service_Walletobjects_CardBarcodeSectionDetails $cardBarcodeSectionDetails)
+    public function setCardBarcodeSectionDetails(Google_Service_Walletobjects_CardBarcodeSectionDetails $cardBarcodeSectionDetails)
     {
         $this->cardBarcodeSectionDetails = $cardBarcodeSectionDetails;
     }
@@ -25,7 +25,7 @@ class Google_Service_Walletobjects_ClassTemplateInfo extends Google_Model
         return $this->cardBarcodeSectionDetails;
     }
 
-    public function setCardTemplateOverride(Walletobjects\Google_Service_Walletobjects_CardTemplateOverride $cardTemplateOverride)
+    public function setCardTemplateOverride(Google_Service_Walletobjects_CardTemplateOverride $cardTemplateOverride)
     {
         $this->cardTemplateOverride = $cardTemplateOverride;
     }

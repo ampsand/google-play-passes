@@ -2,13 +2,13 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_LabelValue extends Google_Model
+class Google_Service_Walletobjects_LabelValue extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
     public $label;
-    protected $localizedLabelType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedLabelType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedLabelDataType = '';
-    protected $localizedValueType = 'Walletobjects\Google_Service_Walletobjects_LocalizedString';
+    protected $localizedValueType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_LocalizedString';
     protected $localizedValueDataType = '';
     public $value;
 

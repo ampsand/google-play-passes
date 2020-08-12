@@ -2,11 +2,11 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_DetailsTemplateOverride extends Google_Collection
+class Google_Service_Walletobjects_DetailsTemplateOverride extends \Google_Collection
 {
     protected $collection_key = 'detailsItemInfos';
     protected $internal_gapi_mappings = array();
-    protected $detailsItemInfosType = 'Walletobjects\Google_Service_Walletobjects_DetailsItemInfo';
+    protected $detailsItemInfosType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_DetailsItemInfo';
     protected $detailsItemInfosDataType = 'array';
 
 

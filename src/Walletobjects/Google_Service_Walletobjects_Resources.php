@@ -2,33 +2,33 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_Resources extends Google_Collection
+class Google_Service_Walletobjects_Resources extends \Google_Collection
 {
     protected $collection_key = 'transitObjects';
     protected $internal_gapi_mappings = array();
-    protected $eventTicketClassesType = 'Walletobjects\Google_Service_Walletobjects_EventTicketClass';
+    protected $eventTicketClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketClass';
     protected $eventTicketClassesDataType = 'array';
-    protected $eventTicketObjectsType = 'Walletobjects\Google_Service_Walletobjects_EventTicketObject';
+    protected $eventTicketObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_EventTicketObject';
     protected $eventTicketObjectsDataType = 'array';
-    protected $flightClassesType = 'Walletobjects\Google_Service_Walletobjects_FlightClass';
+    protected $flightClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_FlightClass';
     protected $flightClassesDataType = 'array';
-    protected $flightObjectsType = 'Walletobjects\Google_Service_Walletobjects_FlightObject';
+    protected $flightObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_FlightObject';
     protected $flightObjectsDataType = 'array';
-    protected $giftCardClassesType = 'Walletobjects\Google_Service_Walletobjects_GiftCardClass';
+    protected $giftCardClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardClass';
     protected $giftCardClassesDataType = 'array';
-    protected $giftCardObjectsType = 'Walletobjects\Google_Service_Walletobjects_GiftCardObject';
+    protected $giftCardObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_GiftCardObject';
     protected $giftCardObjectsDataType = 'array';
-    protected $loyaltyClassesType = 'Walletobjects\Google_Service_Walletobjects_LoyaltyClass';
+    protected $loyaltyClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_LoyaltyClass';
     protected $loyaltyClassesDataType = 'array';
-    protected $loyaltyObjectsType = 'Walletobjects\Google_Service_Walletobjects_LoyaltyObject';
+    protected $loyaltyObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_LoyaltyObject';
     protected $loyaltyObjectsDataType = 'array';
-    protected $offerClassesType = 'Walletobjects\Google_Service_Walletobjects_OfferClass';
+    protected $offerClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferClass';
     protected $offerClassesDataType = 'array';
-    protected $offerObjectsType = 'Walletobjects\Google_Service_Walletobjects_OfferObject';
+    protected $offerObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_OfferObject';
     protected $offerObjectsDataType = 'array';
-    protected $transitClassesType = 'Walletobjects\Google_Service_Walletobjects_TransitClass';
+    protected $transitClassesType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_TransitClass';
     protected $transitClassesDataType = 'array';
-    protected $transitObjectsType = 'Walletobjects\Google_Service_Walletobjects_TransitObject';
+    protected $transitObjectsType = 'Ampsand\GooglePlayPasses\Walletobjects\Google_Service_Walletobjects_TransitObject';
     protected $transitObjectsDataType = 'array';
 
 

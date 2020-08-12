@@ -2,18 +2,18 @@
 
 namespace Ampsand\GooglePlayPasses\Walletobjects;
 
-class Google_Service_Walletobjects_ListTemplateOverride extends Google_Model
+class Google_Service_Walletobjects_ListTemplateOverride extends \Google_Model
 {
     protected $internal_gapi_mappings = array();
-    protected $firstRowOptionType = 'Walletobjects\Google_Service_Walletobjects_FirstRowOption';
+    protected $firstRowOptionType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FirstRowOption';
     protected $firstRowOptionDataType = '';
-    protected $secondRowOptionType = 'Walletobjects\Google_Service_Walletobjects_FieldSelector';
+    protected $secondRowOptionType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FieldSelector';
     protected $secondRowOptionDataType = '';
-    protected $thirdRowOptionType = 'Walletobjects\Google_Service_Walletobjects_FieldSelector';
+    protected $thirdRowOptionType = 'Ampsand\GooglePlayPasses\Walletobjects\GoogleService_Walletobjects_FieldSelector';
     protected $thirdRowOptionDataType = '';
 
 
-    public function setFirstRowOption(Walletobjects\Google_Service_Walletobjects_FirstRowOption $firstRowOption)
+    public function setFirstRowOption(Google_Service_Walletobjects_FirstRowOption $firstRowOption)
     {
         $this->firstRowOption = $firstRowOption;
     }
@@ -23,7 +23,7 @@ class Google_Service_Walletobjects_ListTemplateOverride extends Google_Model
         return $this->firstRowOption;
     }
 
-    public function setSecondRowOption(Walletobjects\Google_Service_Walletobjects_FieldSelector $secondRowOption)
+    public function setSecondRowOption(Google_Service_Walletobjects_FieldSelector $secondRowOption)
     {
         $this->secondRowOption = $secondRowOption;
     }
@@ -33,7 +33,7 @@ class Google_Service_Walletobjects_ListTemplateOverride extends Google_Model
         return $this->secondRowOption;
     }
 
-    public function setThirdRowOption(Walletobjects\Google_Service_Walletobjects_FieldSelector $thirdRowOption)
+    public function setThirdRowOption(Google_Service_Walletobjects_FieldSelector $thirdRowOption)
     {
         $this->thirdRowOption = $thirdRowOption;
     }
